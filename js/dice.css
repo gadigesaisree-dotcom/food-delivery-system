@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #c3ec52, #0ba29d);
+    font-family: Arial, sans-serif;
+}
+
+.dice-container {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.dice {
+    font-size: 60px;
+    margin: 15px 0;
+}
+
+button {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    background: #ff5722;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    max-height: 120px;
+    overflow-y: auto;
+    text-align: left;
+}
+
+li {
+    background: #f1f1f1;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 6px;
+}
